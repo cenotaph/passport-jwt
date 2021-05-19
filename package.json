@@ -33,6 +33,7 @@
     "sinon": "^1.0.0"
   },
   "dependencies": {
+    "async": "^3.2.0",
     "jsonwebtoken": "^8.2.0",
     "passport-strategy": "^1.0.0"
   }
