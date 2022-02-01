@@ -1,6 +1,6 @@
 {
   "name": "passport-multi-jwt",
-  "version": "0.0.0 alpha",
+  "version": "0.0.1 alpha",
   "description": "Passport authentication strategy using JSON Web Tokens",
   "main": "./lib",
   "scripts": {
