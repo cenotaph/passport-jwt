@@ -167,7 +167,6 @@ describe('Strategy', function() {
         it('will call verify with request as the first argument', function() {
             expect(expected_request).to.equal(request_arg);
         });
-
     });
 
 

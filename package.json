@@ -1,6 +1,6 @@
 {
-  "name": "passport-jwt",
-  "version": "4.0.0",
+  "name": "passport-multi-jwt",
+  "version": "0.0.0 alpha",
   "description": "Passport authentication strategy using JSON Web Tokens",
   "main": "./lib",
   "scripts": {
@@ -19,7 +19,7 @@
     "Token",
     "JWT"
   ],
-  "author": "Mike Nicholson",
+  "author": "James Strachan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikenicholson/passport-jwt/issues"
