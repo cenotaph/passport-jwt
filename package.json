@@ -1,7 +1,7 @@
 {
   "name": "passport-multi-jwt",
-  "version": "0.0.1 alpha",
-  "description": "Passport authentication strategy using JSON Web Tokens",
+  "version": "0.0.2",
+  "description": "Passport authentication strategy using JSON Web Tokens with multiple providers. Fully backwards compatible with passport-jwt.",
   "main": "./lib",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --require test/bootstrap test/*test.js",
@@ -22,9 +22,9 @@
   "author": "James Strachan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikenicholson/passport-jwt/issues"
+    "url": "https://github.com/mestrak/passport-jwt/issues"
   },
-  "homepage": "https://github.com/mikenicholson/passport-jwt",
+  "homepage": "https://github.com/mestrak/passport-jwt",
   "devDependencies": {
     "chai": "^3.0.0",
     "chai-passport-strategy": "^1.0.0",
