@@ -6,8 +6,7 @@
 A [Passport](http://passportjs.org/) strategy for authenticating with a
 [JSON Web Token](http://jwt.io).
 
-This module lets you authenticate endpoints using a JSON web token. It is
-intended to be used to secure RESTful endpoints without sessions.
+This module lets you authenticate endpoints using a JSON web token against multiple secrets or secrets providers. It intended to be used to secure RESTful/GraphQL endpoints without sessions. This package is forked from passport-jwt (and still requires some updates to the docs!). It is fully backwards compatible with passport-jwt (with the exception of requiring NodeJS > 15).
 
 ## Supported By
 
