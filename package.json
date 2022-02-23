@@ -1,6 +1,6 @@
 {
   "name": "passport-multi-jwt",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Passport authentication strategy using JSON Web Tokens with multiple providers. Fully backwards compatible with passport-jwt.",
   "main": "./lib",
   "scripts": {
@@ -33,7 +33,6 @@
     "sinon": "^1.0.0"
   },
   "dependencies": {
-    "async": "^3.2.0",
     "jsonwebtoken": "^8.2.0",
     "passport-strategy": "^1.0.0"
   }
