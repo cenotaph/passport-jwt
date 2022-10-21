@@ -1,6 +1,6 @@
 {
   "name": "@mestrak/passport-multi-jwt",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Passport authentication strategy using JSON Web Tokens with multiple providers. Fully backwards compatible with passport-jwt.",
   "main": "./lib",
   "scripts": {
