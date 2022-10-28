@@ -1,8 +1,9 @@
 {
-  "name": "@mestrak/passport-multi-jwt",
+  "name": "@sanofi-iadc/passport-multi-jwt",
   "version": "0.0.9",
   "description": "Passport authentication strategy using JSON Web Tokens with multiple providers. Fully backwards compatible with passport-jwt.",
   "main": "./lib",
+  "private": false,
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --require test/bootstrap test/*test.js",
     "testcov": "nyc npm run test"
@@ -22,10 +23,12 @@
   "author": "James Strachan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mestrak/passport-jwt/issues"
+    "url": "https://github.com/Sanofi-IADC/passport-multi-jwt/issues"
   },
-  "homepage": "https://github.com/mestrak/passport-jwt",
+  "homepage": "https://github.com/Sanofi-IADC/passport-multi-jwt",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "chai": "^3.0.0",
     "chai-passport-strategy": "^1.0.0",
     "mocha": "^6.2.2",
