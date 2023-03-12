@@ -1,5 +1,9 @@
 {
-  "name": "@sanofi-iadc/passport-multi-jwt",
+  "name": "@cenotaph/passport-multi-jwt",
+  "repository": "git@github.com:cenotaph/passport-jwt.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "version": "0.0.9",
   "description": "Passport authentication strategy using JSON Web Tokens with multiple providers. Fully backwards compatible with passport-jwt.",
   "main": "./lib",
@@ -7,10 +11,6 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --require test/bootstrap test/*test.js",
     "testcov": "nyc npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mikenicholson/passport-jwt.git"
   },
   "keywords": [
     "Passport",
